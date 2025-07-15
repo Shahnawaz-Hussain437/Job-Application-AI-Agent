@@ -1,0 +1,48 @@
+Essae-Teraoka is developing a next-gen smart retail weighing scale that uses AI and computer vision to automatically identify produce, eliminating the need for manual PLU codes or barcode scanning. We’re seeking an AI/ML Engineer to join our lean, high-impact R&D team. You’ll own and deploy models that run entirely offline on edge devices, targeting a top-1 accuracy of ≥95%, a latency of less than 500 ms, and a footprint of less than 500 MB.
+This is a ground-up opportunity to build real-world, production-grade AI for a flagship product that has the potential to revolutionise checkout experiences across India.
+
+Key Responsibilities
+• Develop, train, prune, and quantise CNN-based models (e.g., EfficientNet, MobileNet) for fine-grained classification.
+• Implement XLDA-style augmentation pipelines and address class imbalance to achieve variety-level accuracy.
+• Optimise models for dual deployment targets:
+o Edge-A: Rockchip RK3568 using RKNN Toolkit 2.
+o Edge-B: Intel Atom N97 using OpenVINO 2024.
+• Prototype and maintain a Siamese/triplet embedding head for ambiguous variety disambiguation.
+• Collaborate on active learning, feedback loop retraining, and CI/CD pipelines for continuous improvement.
+• Interface with embedded engineers to deploy real-time inference integrated with camera, weight sensor, and UI components.
+• Contribute to fallback logic and top-3 suggestion UX to ensure reliability in low-confidence scenarios.
+
+Minimum Qualifications
+We’re looking for someone with a strong sense of ownership and a bias for action, someone who treats this project like their own startup and drives it forward with initiative and accountability.
+• Solid Python skills with experience in PyTorch and ONNX workflows.
+• Hands-on project or industry experience in image classification or fine-grained recognition.
+• Familiarity with image preprocessing (OpenCV, Albumentations).
+• Understanding of model optimisation techniques: quantisation, pruning, or knowledge distillation.
+• Firm grasp of CNN architectures (EfficientNet, MobileNet, ResNet).
+• Comfortable working on Linux systems and edge devices (e.g., Raspberry Pi, Jetson Nano, or similar).
+
+Preferred (Bonus) Skills
+• Experience with OpenVINO or RKNN Toolkit 2.
+• Knowledge of Siamese Networks, Triplet Loss, or embedding-based inference.
+• Understanding of active learning, metric learning, or few-shot classification.
+• Deployment experience on embedded Linux platforms (RK3568 or Intel Atom).
+• Prior contributions to end-to-end computer vision pipelines in edge environments.
+
+Why Join Us
+• Lead cutting-edge AI deployment for real-world retail automation at a national scale.
+• Work on hardware-software integration with ML, UX, and embedded teams.
+• Shape the technical architecture of a product poised for broad deployment.
+• Collaborate with market experts and industry consultants.
+• Join a dynamic team where you can truly make an impact! Enjoy the chance to take strong ownership of your work, apply your skills in real-world situations, and experience rapid learning along the way.
+
+Our Stack
+• Core Frameworks: PyTorch, ONNX, OpenVINO, RKNN Toolkit 2
+• Data Tools: Albumentations, DVC, MLflow
+• Edge Platforms: Rockchip RK3568 (Linux + NPU), Intel Atom N97 (iGPU + OpenVINO)
+• Languages: Python, Bash
+• Version Control: Git
+• MLOps: CI/CD + OTA updates via local gateway
+
+How to Apply
+Send your resume and GitHub/portfolio to: careers@essae.com
+Subject line: Application – AI/ML Engineer

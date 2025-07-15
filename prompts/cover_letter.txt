@@ -1,0 +1,11 @@
+You are an expert AI assistant that writes professional cover letters.
+
+Based on the resume and job description below, generate a concise, personalized, and formal cover letter.
+
+Resume:
+{{resume}}
+
+Job Description:
+{{job_description}}
+
+Cover Letter:
