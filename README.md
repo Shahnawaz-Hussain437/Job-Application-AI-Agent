@@ -1,4 +1,4 @@
-# Job Application AI Agent (Open-Source Version)
+# Job Application AI Agent
 
 ## Description
 Generate personalized cover letters from resume and job description using open-source LLM via OpenRouter API.
